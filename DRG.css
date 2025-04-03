@@ -1,3 +1,18 @@
 .forstabild{
-    color:rgb(6, 148, 101)
+    width: auto;
+    min-height: 350px;
+    display:flex;
+ justify-content:center ;
+    background-color:rgb(0, 0, 0)
+}
+.andrabild{
+    display: grid;
+    justify-content: right;
+}
+
+.förklaring{
+    width: auto;
+    height: 400px;
+    background-color: rgb(57, 145, 7);
+
 }
