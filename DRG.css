@@ -1,18 +1,21 @@
+
+body {
+    background-color:rgb(21, 119, 59)
+}
+
 .forstabild{
     width: auto;
     min-height: 350px;
     display:flex;
- justify-content:center ;
-    background-color:rgb(0, 0, 0)
-}
-.andrabild{
-    display: grid;
-    justify-content: right;
+ justify-content:center;
+    background-color:rgb(56, 50, 50)
 }
 
-.förklaring{
+
+.klasser{
     width: auto;
-    height: 400px;
-    background-color: rgb(57, 145, 7);
+    height:500px;
+    background-color: aqua;
+display: flex;
 
 }
