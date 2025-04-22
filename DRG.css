@@ -3,6 +3,11 @@ body {
     background-color:rgb(21, 119, 59)
 }
 
+img{
+    max-height: 100%;
+
+}
+
 .forstabild{
     width: auto;
     min-height: 350px;
@@ -17,9 +22,7 @@ body {
     height:500px;
     background-color: rgb(0, 0, 0);
     display: grid;
-.scut{
-    width: 25%;
-    height: 25%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
 }
 
-}
