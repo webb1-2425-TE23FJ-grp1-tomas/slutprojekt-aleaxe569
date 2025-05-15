@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgb(21, 119, 59)
+    background-color:rgb(56, 50, 50)
 }
 
 img{
@@ -28,3 +28,16 @@ img{
     
 }
 
+.filler{
+    height: 400px; 
+}
+
+.scout{
+    width:auto;
+    /* height: 500px;  */
+    background-color: 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+}
