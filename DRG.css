@@ -1,6 +1,9 @@
 
 body {
-    background-color:rgb(56, 50, 50)
+    margin: 0;
+    background-image: url("bilder/wallpaper.webp");
+    /* background-color:rgb(56, 50, 50) */
+     
 }
 
 img{
@@ -31,13 +34,17 @@ img{
 .filler{
     height: 400px; 
 }
+.beskrivning{
+display: grid;
+justify-items: center; 
+}
 
-.scout{
-    width:auto;
-    /* height: 500px;  */
-    background-color: 
+.classes{
+    background-color: rgb(202, 132, 41);
+    width:1200px; 
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center; 
+    
 }
