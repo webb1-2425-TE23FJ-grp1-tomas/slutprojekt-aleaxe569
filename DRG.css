@@ -38,6 +38,9 @@ img{
 
 .filler{
     height: 400px; 
+    text-align: center;
+    color: antiquewhite;
+    
 }
 .beskrivning{
 display: grid;
