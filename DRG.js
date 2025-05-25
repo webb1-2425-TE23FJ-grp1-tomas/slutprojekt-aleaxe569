@@ -1,3 +1,4 @@
- const header = document.getElementById("scout-text");
-addEventListener("click");
-
+ function showMessage() {
+    document.getElementById("message").innerText = "Deep Rock Galactic is a cooperative first-person shooter developed by Ghost Ship Games. Players take on the roles of space dwarves working for a mining corporation, tasked with exploring dangerous, procedurally generated cave systems on the planet Hoxxes IV. The game emphasizes teamwork, with up to four players choosing from four unique classes—Driller, Engineer, Gunner, and Scout—each with distinct abilities and tools. Gameplay involves mining valuable resources, fighting off hostile alien creatures, and completing mission objectives, all while navigating destructible terrain";
+ }
+ 
