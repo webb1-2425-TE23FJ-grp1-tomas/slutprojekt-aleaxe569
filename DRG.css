@@ -14,6 +14,12 @@ img{
 
 }
 
+h1{
+  background-color: black;
+  min-width:fit-content;
+
+}
+
 .forstabild{
     width: auto;
     min-height: 350px;
@@ -22,6 +28,10 @@ img{
     background-color:rgb(56, 50, 50)
 }
 
+.forstabild picture:hover{
+   transform: scale(1.2);
+  transition: transform 0.7s;
+}
 
 .klasser{
     width: auto;
@@ -53,7 +63,8 @@ justify-items: center;
 
 .classes{
     position: relative;
-    background-color: rgb(231, 90, 90);
+    background-image: url("bilder/wallpaper.webp");
+    background-position: center;
       width: 70%;
   margin: 0 auto;
     display: flex;
